@@ -1,0 +1,36 @@
+.review-item{
+    width: 500px;
+    height: 100px;
+    border: 1px solid goldenrod;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.review-item img{
+    width: 100px;
+    border-radius: 6px;
+}
+.review-details{
+    flex-grow: 1;
+}
+.review-details P{
+    margin: 10px 15px;
+}
+
+.delete-btn{
+    height: 50px;
+    width: 50px;
+    background-color: rgba(220, 20, 60, 0.233);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dlt-icon{
+    color: crimson;
+    font-size: larger;
+}
