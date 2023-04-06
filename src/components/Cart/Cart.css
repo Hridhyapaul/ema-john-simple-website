@@ -3,4 +3,34 @@
     padding: 25px;
     position: sticky;
     top: 0;
+    border-radius: 6px;
+}
+
+.clear-cart-btn{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #ff3030b6;
+    color: white;
+    transition: 0.5s;
+}
+
+.clear-cart-btn:hover{
+    background: #FF3030;
+}
+
+.review-proceed{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    background: #FF9900;
+    color: white;
+    transition: 0.5s;
+}
+
+.link{
+    text-decoration: none;
 }
