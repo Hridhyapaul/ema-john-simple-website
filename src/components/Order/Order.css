@@ -1,0 +1,6 @@
+.review-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    margin: 50px 100px;
+}
